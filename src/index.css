@@ -78,11 +78,11 @@ form {
 
 .practice {
   width: 600px;
-  height: 600px;
-  border-radius: 50%;
+  height: 800px;
+  border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
-  border: 2px dotted #d88e49;
+  color: #ffdec0;
+  border: 2px dotted rgba(216, 142, 73, 0.6);
   box-shadow: 0 0 40px rgba(216, 142, 73, 0.6);
   padding: 20px;
   font-size: 16px;
