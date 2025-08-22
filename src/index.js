@@ -2,5 +2,5 @@ function generatePractice(event) {
   event.preventDefault();
   alert("Generating Practice");
 }
-let practiceFormElement = document.querySelector("#practice");
-practiceFromElement.addEventListener("submit", generatePractice);
+let practiceFormElement = document.querySelector("#practice-generator-form");
+practiceFormElement.addEventListener("submit", generatePractice);
