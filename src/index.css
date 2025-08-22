@@ -17,8 +17,9 @@ a:hover {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.6); /* Soft black overlay */
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 40px;
+  border: 1px solid #d88e49;
   border-radius: 20px;
   max-width: 700px;
   margin: 100px auto;
@@ -36,21 +37,22 @@ h1 {
 .instructions {
   flex: 1;
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.5);
+  border: 1px solid #d88e49 rgba(216, 142, 73, 0.6);
+
   font-size: 16px;
   border-radius: 20px;
   line-height: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #272044;
+  background-color: #000000e6;
+  color: #ffffff;
 }
 
 .practice {
-  color: #f9f7fe;
+  color: #ffffff;
 }
 
 form {
   padding: 30px;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   border-radius: 10px;
   display: flex;
@@ -61,17 +63,14 @@ form {
 
 .submit-button {
   background: #000000;
-  color: #d88e49;
-  border: none;
-  width: 150px;
+  color: #ffffff;
+  border: 1px solid #d88e49;
   font-size: 16px;
   border-radius: 20px;
   padding: 14px 24px;
   cursor: pointer;
 }
 .submit-button:hover {
-  background: #d88e49;
-  color: #000000;
   box-shadow: 0 0 10px rgba(216, 142, 73, 0.6);
 }
 
