@@ -18,7 +18,7 @@ function generatePractice(event) {
   let instructionsInput = document.querySelector(".instructions");
   let apiKey = "60503d6efotf2704dfb74d90d8ce4ea6";
 
-  let prompt = `Generate a spiritual practice involving sacred geometry shapes that aligns with the user's intention (e.g., emotional healing, focus, creativity) 
+  let prompt = `Generate a spiritual practice involving sacred geometry shapes that aligns with the intention of the user (e.g., emotional healing, focus, creativity) 
   following the entered request ${instructionsInput.value}. Include specific ways to engage with sacred geometry shapes — such as visualizing, drawing, meditating on,
   or arranging them. Make sure to follow user instructions and bring effective, applicable and doable practice. Format the response with a bold title at the top
    (use HTML <strong> for that), clearly separated from the rest of the text. Then provide the practice as a paragraph. If the practice includes steps or suggestions, 
