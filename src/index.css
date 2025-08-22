@@ -1,3 +1,92 @@
 body {
-  background-color: aqua;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #f9f7fe;
+}
+
+a {
+  color: #d88e49;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.6); /* Soft black overlay */
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 100px auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  color: #d88e49;
+  text-align: center;
+}
+
+.instructions {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  font-size: 16px;
+  border-radius: 20px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #272044;
+}
+
+.practice {
+  color: #f9f7fe;
+}
+
+form {
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.submit-button {
+  background: #000000;
+  color: #d88e49;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background: #d88e49;
+  color: #000000;
+}
+
+.result {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #885df1;
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+  padding: 20px;
+  color: #f9f7fe;
 }
