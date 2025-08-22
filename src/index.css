@@ -72,6 +72,7 @@ form {
 .submit-button:hover {
   background: #d88e49;
   color: #000000;
+  box-shadow: 0 0 10px rgba(216, 142, 73, 0.6);
 }
 
 .result {
