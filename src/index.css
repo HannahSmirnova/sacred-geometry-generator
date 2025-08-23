@@ -9,13 +9,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
-  color: #f9f7fe;
+  color: #ffffff;
   margin: 0;
   padding: 0;
 }
 
 a {
-  color: #d88e49;
+  color: #ffdec0;
   text-decoration: none;
 }
 a:hover {
@@ -24,11 +24,11 @@ a:hover {
 
 .container {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 40px;
+  padding: 10px;
   border: 1px solid #d88e49;
   border-radius: 20px;
   max-width: 700px;
-  margin: 100px auto;
+  margin: 60px auto;
   box-shadow: 0 0 40px rgba(216, 142, 73, 0.6);
 }
 
@@ -39,20 +39,30 @@ h1 {
   color: #d88e49;
   text-align: center;
 }
+.form-container {
+  padding: 30px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.05);
+  border-radius: 10px;
+  margin-bottom: 20px;
 
+  color: #ffdec0;
+}
+.hint {
+  padding: 5px;
+  font-size: 12px;
+  color: #ffdec0;
+  opacity: 0.6;
+}
 form {
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
-  padding: 30px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.05);
-  border-radius: 10px;
-  margin-bottom: 30px;
 }
 
 .instructions {
-  flex: 1 1 100%;
-  padding: 16px;
+  display: flex;
+
+  padding: 10px;
   border: 1px solid #d88e49;
   box-shadow: 0 0 10px rgba(216, 142, 73, 0.6);
   font-size: 16px;
@@ -76,27 +86,50 @@ form {
   box-shadow: 0 0 30px rgba(216, 142, 73, 0.6);
 }
 
-.practice {
-  width: 600px;
-  height: 600px;
-  border-radius: 20px;
+#practice {
+  max-width: 900px;
+  max-height: 80vh;
+  margin: 40px auto;
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #ffdec0;
   border: 2px dotted rgba(216, 142, 73, 0.6);
   box-shadow: 0 0 40px rgba(216, 142, 73, 0.6);
-  padding: 20px;
+  border-radius: 20px;
   font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  line-height: 1.6;
+  overflow-y: auto;
+  white-space: normal;
+  word-break: break-word;
   text-align: center;
+}
+
+#practice::-webkit-scrollbar {
+  width: 10px;
+}
+
+#practice::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+#practice::-webkit-scrollbar-thumb {
+  background: #d88e49;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+#practice::-webkit-scrollbar-thumb:hover {
+  background: #ffdec0;
+}
+.hidden {
+  display: none;
 }
 
 footer {
   text-align: center;
   font-size: 13px;
-  margin-top: 30px;
-  padding: 300px 20px;
-  color: #f9f7fe;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #ffffff;
 }

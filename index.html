@@ -3,11 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Sacred Geometry Practice Generator</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-
     <link rel="stylesheet" href="src/index.css" />
-    <title>AI Sacred Geometry Practice Generator</title>
   </head>
   <body>
     <div class="container">
@@ -16,22 +15,28 @@
       </header>
 
       <main>
-        <form id="practice-generator-form">
-          <input
-            type="text"
-            class="instructions"
-            placeholder="What would you like to improve?"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" class="submit-button" value="Generate" />
-        </form>
+        <div class="form-container">
+          <form id="practice-generator-form">
+            <input
+              type="text"
+              id="instructions"
+              name="instructions"
+              class="instructions"
+              placeholder="What would you like to improve?"
+              autofocus
+              required
+              autocomplete="off"
+            />
 
-        <div class="practice">The practice will go here</div>
+            <input type="submit" class="submit-button" value="Generate" />
+          </form>
+          <div class="hint">
+            Hint: self-love, chakras balancing, self-acceptance
+          </div>
+        </div>
       </main>
     </div>
-
+    <div class="hidden" id="practice"></div>
     <footer>
       Coded by Anna Smirnova
       <br />
@@ -44,7 +49,6 @@
         >hosted on Netlify</a
       >
     </footer>
-
     <script src="src/index.js"></script>
   </body>
 </html>
