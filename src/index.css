@@ -174,4 +174,8 @@ footer {
   footer {
     margin-top: 250px;
   }
+  #practice {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
