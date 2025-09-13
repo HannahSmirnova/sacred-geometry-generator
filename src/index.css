@@ -178,4 +178,8 @@ footer {
     margin-right: 10px;
     margin-left: 10px;
   }
+
+  #practice footer {
+    margin-top: 20px;
+  }
 }
